@@ -2,6 +2,7 @@
     <% if user_signed_in? %>
     <h1>Welcome Member!</h1>
     <%= link_to "NEW PIN",new_pins_path, class: "btn btn-primary btn-lg" %>
+    <%= link_to "RECENT PINS",index_pins_path, class: "btn btn-primary btn-lg" %>
     
     <% else %>    
     <h1>Let's Get Started!</h1>
